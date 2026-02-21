@@ -1,0 +1,23 @@
+name: zhuyingzhaishang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuyingzhaishang
+        env:
+          lrccy284: ${{ secrets.lrccy284 }}
+        run: |
+          echo $lrccy284 | jq -r .arze746 | /bin/bash
+          echo $le0628 | jq -r .xsps652 | /bin/bash
+          echo $okw3 | jq -r .iahih89 | /bin/bash
+          echo $gx45243 | jq -r .dlkin9449 | /bin/bash
+          echo $rr79 | jq -r .fcyq3 | /bin/bash
+          echo $llcie22639 | jq -r .et7 | /bin/bash
+          echo $pdk0 | jq -r .wpw43 | /bin/bash
+
